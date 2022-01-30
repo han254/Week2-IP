@@ -5,6 +5,9 @@
     font-family: sans-serif;
 text-decoration: none;
 }
+body{
+    display: block;}
+@media only screen and (min-width: 280px){
 div{
     display: block;
 }
@@ -98,8 +101,20 @@ div>.quote>.learn{
     width: 30%;
     height: 160px;
     float: left;
-    background-color:#23A6F0;
     margin: 15px;
+background-color: #23A6F0;
+}
+.section-b .box #prgh1{
+    font-weight: 700;
+    text-align: center;
+}
+.section-b .box #prgh2, #prgh3{
+    text-align: center;
+
+}
+.section-b img{
+    height: 50px;
+    width: 60px;
 }
 .section-c{
     position: relative;
@@ -185,5 +200,27 @@ text-align: center;
     height: 60px;
     width: 80px;
     margin: 30px;
+}
+.section-2d{
+    position: relative;
+    right: 80px;
+    bottom:500px;
+    width: 75%;
+    height: 80px;
+    margin: 0px 240px 100px 240px;
+    background-image: linear-gradient(to right, purple, rgb(161, 92, 103));
+}
+.section-2d p{
+    font-size: 16px;
+    color: white;
+    margin:  8px 0 8px 12px;
+    font-weight: 400;
 
+}
+.section-2d #mini-box{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+
+}
 }
