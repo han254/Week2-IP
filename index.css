@@ -170,3 +170,20 @@ text-align: center;
     align: center;
     
 }
+.logo-images{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 80px;
+    bottom:320px;
+    width: 75%;
+    height: 200px;
+    margin: 0px 240px 100px 240px;
+
+}
+.logo-images img{
+    height: 60px;
+    width: 80px;
+    margin: 30px;
+
+}
