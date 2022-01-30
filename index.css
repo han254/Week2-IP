@@ -316,5 +316,18 @@ flex: 1;
         margin-right: auto;
         margin-bottom: 50px;
     }
-    
+    .section-2e{
+    position: relative;
+    right: 80px;
+    bottom:350px;
+    width: 60%;
+    height: 400px;
+    margin: 240px;
+    background-color: yellowgreen;
+    }
+    .section-2e img{
+        height: 400px;
+        width:30%;
+
+    }
 }
