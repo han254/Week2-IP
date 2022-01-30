@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+text-decoration: none;
+}
+div{
+    display: block;
 }
 .section-a {
     width: 100%;
@@ -11,11 +14,73 @@
     background-image: url('images/herocover3.png');
     background-size: contain;
     background-repeat: no-repeat;
-}
-.section-a>nav{
-    text-align: center;
 
 }
-.section-a > nav> ul>li>a:hover{
-color: black;
-} 
+label.logo{
+color: white;
+padding: 0 100px;
+font-size: 24px;
+line-height: 60px;
+font-weight: bold;
+}
+nav ul{
+float: right;
+margin-right: 20px;
+text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a{
+color: white;
+font-size: 14px;
+}
+nav a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin:120px;
+}
+.text p:first-child{
+    font-size:40px;
+    font-weight: bold;
+}
+.text p:nth-child(2){
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.text p:nth-child(4){
+    margin-bottom: 30px;
+}
+div>.quote>.learn{
+    flex-direction: row;
+}
+.quote{
+    margin-top: 40px;
+    width: 130px;
+    padding: 8px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(41, 170, 212);
+    color: white;
+    flex-direction: row;
+}
+.learn{
+    width: 120px;
+    padding: 6px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid white;
+    color: white;
+    flex-direction: row;
+}
