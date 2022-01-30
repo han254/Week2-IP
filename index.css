@@ -223,4 +223,80 @@ text-align: center;
     background-color: white;
 
 }
+.pricing{
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+}
+.pricing p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.containers{
+    position: relative;
+    right: 80px;
+    bottom:200px;
+    width: 75%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+
+    
+    
+}
+.containers #price-container1{
+position: relative;
+width: 25%;
+height: 400px;
+float: left;
+align-items: center;
+border: solid #23A6F0 2px;
+margin: 0.5px;
+margin-right:auto ;
+margin-left: auto;
+flex: 1;
+}
+
+.containers #price-container2{
+    position: relative;
+    width: 25%;
+    height: 400px;
+    float: left;
+    align-items: center;
+    border: solid #23A6F0 2px;
+    margin: 0.5px;
+    flex: 1;
+    background-color: #252B42;
+    
+
+}
+.containers #price-container3{
+        position: relative;
+        width: 25%;
+        height: 400px;
+        float: left;
+        align-items: center;
+        border: solid #23A6F0 2px;
+        margin: 0.5px;
+        flex: 1;
+        
+    }
+    .containers #price-container1 P{
+        font-size: 16PX;
+        margin: 10px;
+        padding: 2px;
+    }
+    .containers #price-container2 P{
+        font-size: 16px;
+        margin: 12px;
+        color: white;
+        padding: 2px;
+        
+    }
+    .containers #price-container3 P{
+        font-size: 16px;
+        margin: 12px;
+        padding: 2px;
+    }
 }
