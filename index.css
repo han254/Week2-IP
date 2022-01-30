@@ -325,9 +325,15 @@ flex: 1;
     margin: 240px;
     background-color: yellowgreen;
     }
-    .section-2e img{
-        height: 400px;
-        width:30%;
 
-    }
+   .section-2e img{
+    height: 400px;
+    width:30%;
+}
+.section-2e .forms{
+    text-align: right;
+ margin: 20px;
+ padding: 5px;
+
+}
 }
