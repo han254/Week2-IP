@@ -299,4 +299,13 @@ flex: 1;
         margin: 12px;
         padding: 2px;
     }
+    .try{
+    margin: 40px;
+    width: 150px;
+    padding: 8px;
+    background-color:#23A6F0;
+    color: white;
+    flex-direction: row;
+    
+    }
 }
