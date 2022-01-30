@@ -84,3 +84,19 @@ div>.quote>.learn{
     color: white;
     flex-direction: row;
 }
+.section-b{
+    position: relative;
+    right: 80px;
+    bottom:320px;
+    width: 75%;
+    height: 200px;
+    margin: 240px;
+}
+.section-b .box{
+    position: relative;
+    width: 30%;
+    height: 160px;
+    float: left;
+    background-color:rgb(41, 170, 212);
+    margin: 15px;
+}
