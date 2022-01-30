@@ -140,16 +140,16 @@ text-align: center;
     width: 75%;
     height: 300px;
     margin: 0px 240px 100px 240px;
-    background-color: yellowgreen;
 }
 .box-container .ratings{
     position: relative;
     width: 20%;
-    height: 260px;
+    height: 240px;
     float: left;
     margin: 20px 50px 20px 50px;
     align-items: center;
-    border: solid white 1px;
+    border: solid rgb(245, 228, 228) 2px;
+    border-radius: 2px;
 }
 .box-container img{
     height: 80px;
@@ -158,4 +158,15 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+}
+.box-container .ratings .comments{
+    font-size: 12px;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+.box-container .ratings .reviews{
+    color: yellow;
+    align: center;
+    
 }
