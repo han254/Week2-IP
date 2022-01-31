@@ -147,6 +147,15 @@ text-align: center;
     height: 60px;
     margin-left: 100px;
 }
+.section-d .industry{
+        text-align: center;
+        position: relative;
+        bottom: 500px;
+    }
+    .industry p:first-child{
+        font-weight: bold;
+        font-size: 20px;
+    }
 .box-container{
     position: relative;
     right: 80px;
@@ -174,14 +183,14 @@ text-align: center;
     margin-top: 15px;
 }
 .box-container .ratings .comments{
-    font-size: 12px;
+    font-size: 13px;
     color: black;
     margin: 10px;
     text-align: center;
 }
 .box-container .ratings .reviews{
     color: yellow;
-    align: center;
+    box-align: center;
     
 }
 .logo-images{
@@ -207,6 +216,7 @@ text-align: center;
     width: 75%;
     height: 80px;
     margin: 0px 240px 100px 240px;
+    display: flex;
     background-image: linear-gradient(to right, purple, rgb(161, 92, 103));
 }
 .section-2d p{
@@ -217,9 +227,11 @@ text-align: center;
 
 }
 .section-2d #mini-box{
+    position: relative;
     width: 100px;
     height: 20px;
     background-color: white;
+
 
 }
 .pricing{
@@ -298,6 +310,14 @@ flex: 1;
         margin: 12px;
         padding: 2px;
     }
+    .containers p:nth-child(4){
+        color: #23A6F0;
+        font-weight: bold;
+    }
+    .containers #price-container2 P:nth-child(4){
+        color: #23A6F0;
+
+    }
     .try{
     margin: 40px;
     width: 150px;
@@ -346,9 +366,4 @@ flex: 1;
     text-align: justify;
     font-size: 16px;
     color: rgb(57 61 61);
-}
-@media only screen and (min-width: 280px){
-p{
-    font-size: 1.25rem;
-}
 }
