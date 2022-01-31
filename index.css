@@ -147,15 +147,6 @@ text-align: center;
     height: 60px;
     margin-left: 100px;
 }
-.section-d .industry{
-        text-align: center;
-        position: relative;
-        bottom: 500px;
-    }
-    .industry p:first-child{
-        font-weight: bold;
-        font-size: 20px;
-    }
 .box-container{
     position: relative;
     right: 80px;
@@ -308,16 +299,15 @@ flex: 1;
     .containers #price-container3 P{
         font-size: 16px;
         margin: 12px;
-        padding: 2px;
-    }
-    .containers p:nth-child(4){
-        color: #23A6F0;
-        font-weight: bold;
-    }
-    .containers #price-container2 P:nth-child(4){
-        color: #23A6F0;
-
-    }
+        padding: 2px;}
+        .containers p:nth-child(4){
+            color: #23A6F0;
+            font-weight: bold;
+        }
+        .containers #price-container2 P:nth-child(4){
+            color: #23A6F0;
+        
+        }
     .try{
     margin: 40px;
     width: 150px;
