@@ -1,5 +1,5 @@
-## By Peter Njenga 
-# Project Name
+# By Peter Njenga 
+## Project Name
 Insurance Website
 
 ### Description
