@@ -1,4 +1,6 @@
-# By Peter Njenga 
+## By Peter Njenga 
+# Project Name
+Insurance Website
 
 ### Description
 This is my independent project for week 2. It is my second project since I started coding.
